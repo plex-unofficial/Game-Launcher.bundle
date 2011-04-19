@@ -1,0 +1,1 @@
+CREATE TABLE games (game_id TEXT, name TEXT, console TEXT, thumb TEXT, description BLOB, publisher TEXT, year INTEGER, genre TEXT, CONSTRAINT unique_game UNIQUE(game_id, console));
